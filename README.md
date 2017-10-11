@@ -1,24 +1,4 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Os controllers foram nomeado de acordo com os padroes do rails onde os controllers tem seus nomes no plural, criei dois controller o do post e o do comments onde fiz o crud de post e de comments e criei uma função onde só os donos dos artigos e dos comentarios podem excluir e editar.
+Não utilizei nenhum tutorial para desenvolver este blog.
