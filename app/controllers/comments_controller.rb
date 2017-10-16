@@ -14,7 +14,7 @@ class CommentsController < ApplicationController
 
   def create
      @comment = Comment.new(post_id: params[:post_id])
-     @comment = @post.comments.create(params[:comment].permit(:body))
+     @comment = @post.comments.create(comment_params)
      @comment.user_id = current_user.id
     if @comment.save
       render json: @comment, status: :created
